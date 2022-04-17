@@ -3,61 +3,61 @@ function Doctors() {
     <>
       {/* doctors section starts   */}
 
-      <section class="doctors" id="doctors">
-        <h1 class="heading">
-          {" "}
-          our <span>doctors</span>{" "}
+      <section className='doctors' id='doctors'>
+        <h1 className='heading'>
+          {' '}
+          our <span>doctors</span>{' '}
         </h1>
 
-        <div class="box-container">
-          <div class="box">
-            <img src="../image/doc-1.jpg" alt="" />
+        <div className='box-container'>
+          <div className='box'>
+            <img src='../image/doc-1.jpg' alt='' />
             <h3>john deo</h3>
             <span>expert doctor</span>
-            <div class="share">
-              <a href="#" class="fab fa-facebook-f">
-                {" "}
+            <div className='share'>
+              <a href='#' className='fab fa-facebook-f'>
+                {' '}
               </a>
-              <a href="#" class="fab fa-twitter">
-                {" "}
+              <a href='#' className='fab fa-twitter'>
+                {' '}
               </a>
-              <a href="#" class="fab fa-instagram">
-                {" "}
+              <a href='#' className='fab fa-instagram'>
+                {' '}
               </a>
-              <a href="#" class="fab fa-linkedin">
-                {" "}
+              <a href='#' className='fab fa-linkedin'>
+                {' '}
               </a>
             </div>
           </div>
 
-          <div class="box">
-            <img src="../image/doc-2.jpg" alt="" />
+          <div className='box'>
+            <img src='../image/doc-2.jpg' alt='' />
             <h3>john deo</h3>
             <span>expert doctor</span>
-            <div class="share">
-              <a href="#" class="fab fa-facebook-f"></a>
-              <a href="#" class="fab fa-twitter"></a>
-              <a href="#" class="fab fa-instagram"></a>
-              <a href="#" class="fab fa-linkedin"></a>
+            <div className='share'>
+              <a href='#' className='fab fa-facebook-f'></a>
+              <a href='#' className='fab fa-twitter'></a>
+              <a href='#' className='fab fa-instagram'></a>
+              <a href='#' className='fab fa-linkedin'></a>
             </div>
           </div>
 
-          <div class="box">
-            <img src="../image/doc-3.jpg" alt="" />
+          <div className='box'>
+            <img src='../image/doc-3.jpg' alt='' />
             <h3>john deo</h3>
             <span>expert doctor</span>
-            <div class="share">
-              <a href="# " class="fab fa-facebook-f">
-                {" "}
+            <div className='share'>
+              <a href='# ' className='fab fa-facebook-f'>
+                {' '}
               </a>
-              <a href="# " class="fab fa-twitter">
-                {" "}
+              <a href='# ' className='fab fa-twitter'>
+                {' '}
               </a>
-              <a href="# " class="fab fa-instagram">
-                {" "}
+              <a href='# ' className='fab fa-instagram'>
+                {' '}
               </a>
-              <a href=" # " class="fab fa-linkedin">
-                {" "}
+              <a href=' # ' className='fab fa-linkedin'>
+                {' '}
               </a>
             </div>
           </div>
