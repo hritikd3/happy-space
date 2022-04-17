@@ -1,41 +1,50 @@
+import "../css/styles.css";
 import React from "react";
 
 function Home() {
   return (
     <>
-      {/* about section starts  */}
-      <section className="about" id="about">
-        <div className="image">
-          <img src={"assests/image/about-img.png"} alt="" />
+      <header class="header">
+        <a href="# " class="logo">
+          {" "}
+          <i class="fas fa-heartbeat"></i> happyspace.{" "}
+        </a>
+
+        <nav class="navbar">
+          <a href="#home">home</a>
+          {/* <a href="#services">services</a>  */}
+          <a href="#about">about</a>
+          <a href="#doctors">happyspace</a>
+          <a href="#book">book</a>
+          <a href="#review">reviews</a>
+          <a href="#blogs">blogs</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </header>
+
+      <section class="home" id="home">
+        <div class="image">
+          <img src="image/home-img.svg" alt="" />
         </div>
-        <div className="content">
-          <span>why choose us?</span>
-          <h3 className="title">what's make our food delicious!</h3>
-          <p>our customers are our first periority</p>
-          <a href="#popular" className="btn">
-            read more
+
+        <div class="content">
+          <h3>A healthy mind is an asset</h3>
+          <p>
+            Do you feel sometime pressurized , lonely, and want to spend some
+            quality time , need some folks who think like you , feel like you ?
+            We are happySpace , we are in favour of creating a community where a
+            person going through with mental problems will get only information
+            which will motivate him/her.{" "}
+          </p>
+          <a href="# " class="btn">
+            {" "}
+            check happySpace <span class="fas fa-chevron-right"></span>{" "}
           </a>
-          <div className="icons-container">
-            <div className="icons">
-              <img src={"assests/image/serv-1.png"} alt="" />
-              <h3>fast delivery</h3>
-            </div>
-            <div className="icons">
-              <img src={"assests/image/serv-2.png"} alt="" />
-              <h3>fresh food</h3>
-            </div>
-            <div className="icons">
-              <img src={"assests/image/serv-3.png"} alt="" />
-              <h3>best quality</h3>
-            </div>
-            <div className="icons">
-              <img src={"assests/image/serv-4.png"} alt="" />
-              <h3>24/7 support</h3>
-            </div>
-          </div>
         </div>
       </section>
-      {/* about section ends */}
+
+      {/* home section ends  */}
     </>
   );
 }
