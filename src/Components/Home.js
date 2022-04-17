@@ -25,7 +25,7 @@ function Home() {
 
       <section class="home" id="home">
         <div class="image">
-          <img src="image/home-img.svg" alt="" />
+          <img src="../image/home-img.svg" alt="" />
         </div>
 
         <div class="content">
