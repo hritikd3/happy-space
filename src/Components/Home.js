@@ -23,7 +23,7 @@ function Home() {
 
       <section className='home' id='home'>
         <div className='image'>
-          <img src='./image/home-img.svg' alt='' />
+          <img src='../image/Headache-bro.svg' alt='' />
         </div>
 
         <div className='content'>
