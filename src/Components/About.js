@@ -8,7 +8,7 @@ function About() {
         </h1>
         <div className="row">
           <div className="image">
-            <img src="./image/about-img.svg" alt="" />
+            <img src="../image/Pleasant surprise-bro.svg" alt="" />
           </div>
           <div className="content">
             <h3>we take care of your healthy life</h3>
