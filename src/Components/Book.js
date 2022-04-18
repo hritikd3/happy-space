@@ -9,7 +9,7 @@ function Book() {
         </h1>
         <div className='row'>
           <div className='image'>
-            <img src='../image/book-img.svg' alt='' />
+            <img src='../image/getin.svg' alt='' />
           </div>
           <form>
             <h3>book appointment</h3>
